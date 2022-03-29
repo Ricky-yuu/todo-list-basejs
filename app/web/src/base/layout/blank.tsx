@@ -1,7 +1,7 @@
 import { layout } from 'web-init'
 import { useGlobal } from '../../../../../pkgs/web/init/node_modules/web-utils/src'
 import { globalLayout } from '../global/layout'
-import Footer from '../../components/Footer'
+// import Footer from '../../components/Footer'
 
 export default layout({
   component: ({ children }) => {
@@ -19,8 +19,8 @@ export default layout({
           })}
         </div>
         <div>{children}</div>
-
-        <Footer />
+{/* 
+        <Footer /> */}
       </div>
     )
   },
